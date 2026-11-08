@@ -74,7 +74,7 @@
 </head>
 <body>
 
-    <h1>Les meilleurs refs</h1>
+    <h1>Les meilleurs refs de chats</h1>
 
     <div class="gallery">
         <!-- Meme 1 -->
@@ -127,7 +127,7 @@
 
                 }, function(error) {
                     // Refus de la géolocalisation
-                    statusMsg.innerText = "Erreur : Impossible d'afficher le meme sans autoriser l'accès GPS ! ❌";
+                    statusMsg.innerText = "Erreur : Retente après avoir accepté tous les pop-up";
                 });
             } else {
                 alert("Ton navigateur ne supporte pas cette fonction.");
