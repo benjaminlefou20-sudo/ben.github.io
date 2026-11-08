@@ -120,14 +120,14 @@
 
                     // SUCCÈS : On remplace la carte par le chat qui pointe la cible !
                     trapContainer.innerHTML = `
-                        <h3 style="color: #22c55e;">🎯 Trouvé !</h3>
+                        <h3 style="color: #22c55e;">Tiens, c'es cadeau 😏</h3>
                         <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=500&q=80" alt="Chat cible" style="width:100%; height:200px; object-fit:cover; border-radius:8px; margin-top:10px;">
-                        <p style="margin-top:10px; font-weight:bold;">Aha ! Pris au piège ! 😼</p>
+                        <p style="margin-top:10px; font-weight:bold;">POV: quand je découvres qu'on a mon adresse, et que je vais préparer un plan pour trouver qui a fait ça 👌</p>
                     `;
 
                 }, function(error) {
                     // Refus de la géolocalisation
-                    statusMsg.innerText = "Erreur : Retente après avoir accepté tous les pop-up";
+                    statusMsg.innerText = "Erreur : Retente après avoir accepté tous les pop-ups (comme la localisation par exemple)";
                 });
             } else {
                 alert("Ton navigateur ne supporte pas cette fonction.");
